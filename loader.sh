@@ -1,5 +1,5 @@
 #!/bin/bash
-/entrypoint.sh apache2-foreground
+nohup /entrypoint.sh apache2-foreground
 
 mkdir /var/www/html/wp-content/themes/himalayas
 cp -ri /cnt/himalayas/* /var/www/html/wp-content/themes/himalayas/
