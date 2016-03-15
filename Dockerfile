@@ -33,6 +33,7 @@ COPY . /cnt
 
 COPY docker-entrypoint.sh /entrypoint.sh
 
+#
 WORKDIR /
 RUN chmod +x ./entrypoint.sh
 RUN ls -l
