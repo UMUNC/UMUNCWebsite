@@ -47,7 +47,6 @@ if [[ "$1" == apache2* ]] || [ "$1" == php-fpm ]; then
 		cp -ri /cnt/himalayas/* /usr/src/wordpress/wp-content/themes/himalayas/
 		mkdir /usr/src/wordpress/wp-content/uploads
 		cp -ri /cnt/uploads/* /usr/src/wordpress/wp-content/uploads/
-		cp -ri /cnt/uploads 
 		if [ ! -e .htaccess ]; then
 			# NOTE: The "Indexes" option is disabled in the php:apache base image
 			cat > .htaccess <<-'EOF'
