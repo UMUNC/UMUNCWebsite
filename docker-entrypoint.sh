@@ -43,10 +43,10 @@ if [[ "$1" == apache2* ]] || [ "$1" == php-fpm ]; then
 		fi
 		tar cf - --one-file-system -C /usr/src/wordpress . | tar xf -
 		echo >&2 "Complete! WordPress has been successfully copied to $(pwd)"
-		mkdir /usr/src/wordpress/wp-content/themes/himalayas
-		cp -ri /cnt/himalayas/* /usr/src/wordpress/wp-content/themes/himalayas/
-		mkdir /usr/src/wordpress/wp-content/uploads
-		cp -ri /cnt/uploads/* /usr/src/wordpress/wp-content/uploads/
+		mkdir /var/www/html/wp-content/themes/himalayas
+		cp -ri /cnt/himalayas/* /var/www/html/wp-content/themes/himalayas/
+		mkdir /var/www/html/wp-content/uploads
+		cp -ri /cnt/uploads/* /var/www/html/wp-content/uploads/
 		if [ ! -e .htaccess ]; then
 			# NOTE: The "Indexes" option is disabled in the php:apache base image
 			cat > .htaccess <<-'EOF'
