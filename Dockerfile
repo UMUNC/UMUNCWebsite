@@ -37,5 +37,5 @@ COPY docker-entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 RUN ls -l
 # grr, ENTRYPOINT resets CMD now
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["php-fpm"]
