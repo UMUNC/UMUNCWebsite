@@ -32,7 +32,7 @@ RUN mkdir /cnt
 COPY . /cnt 
 
 COPY docker-entrypoint.sh /entrypoint.sh
-RUN chmod 755 /entrypoint.sh
+RUN chmod 777 /entrypoint.sh
 
 # grr, ENTRYPOINT resets CMD now
 ENTRYPOINT ["/entrypoint.sh"]
