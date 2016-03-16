@@ -32,7 +32,7 @@ wp_head();
 				<?php if( ( get_theme_mod( 'himalayas_header_logo_placement', 'header_text_only' ) == 'show_both' || get_theme_mod( 'himalayas_header_logo_placement', 'header_text_only' ) == 'header_logo_only' ) && get_theme_mod( 'himalayas_logo', '' ) != '') {	?>
 
 					<div class="logo">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img width="333px" height="68px" src="<?php echo esc_url( get_theme_mod( 'himalayas_logo' ) ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img height="68px" src="<?php echo esc_url( get_theme_mod( 'himalayas_logo' ) ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a>
 					</div> <!-- logo-end -->
 				<?php	}
 
