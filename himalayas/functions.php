@@ -71,6 +71,13 @@ function himalayas_setup() {
 }
 endif;
 
+add_filter('comment_form_default_fields', 'mytheme_remove_url');
+ 
+function mytheme_remove_url($arg) {
+    $arg['url'] = '';
+    return $arg;
+}
+
 /**
  * Define Directory Location Constants
  */
