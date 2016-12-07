@@ -41,5 +41,6 @@
 	</div>
 
 	<?php do_action( 'himalayas_after_body_content' ); ?>
-
 <?php get_footer(); ?>
+
+

@@ -7,7 +7,11 @@
  * @since Himalayas 1.0
  */
 ?>
-
+<style>
+#masthead {
+    height: 100%;
+}
+</style> 
 <?php get_header(); ?>
 
 	<div id="content" class="site-content">
@@ -46,5 +50,13 @@
 			</main>
 		<?php endif; ?>
 	</div>
+<style>
+#bottom-footer {
+    margin-top: -46px;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+}
+</style>
 
 <?php get_footer(); ?>

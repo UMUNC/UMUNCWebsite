@@ -59,9 +59,9 @@ wp_head();
 				?>
 				</div><!-- #header-text -->
 
-				<div class="menu-search-wrapper">
+				<div class="menu-search-wrapper" >
 
-					<div class="home-search">
+					<div class="home-search" style="display: none">
 
 						<div class="search-icon">
 							<i class="fa fa-search"> </i>
