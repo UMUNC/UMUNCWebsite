@@ -60,9 +60,11 @@ function himalayas_featured_image_slider() { ?>
                         </div>
 
                         <a class="slider-readmore" href="<?php echo get_permalink(); ?>"> <?php echo __( '进入了解', 'himalayas' ) ?></a><br /><br />
-                        <a class="slider-readmore" href="http://sw.umunc.org/iris/"> <?php echo __( '西南分会申请入口', 'himalayas' ) ?></a>
-                        <a class="slider-readmore" href="http://nc.umunc.org/iris/"> <?php echo __( '华北分会申请入口', 'himalayas' ) ?></a>
-                        <a class="slider-readmore" href="http://nw.umunc.org/iris/"> <?php echo __( '西北分会申请入口', 'himalayas' ) ?></a>
+                        <a class="slider-readmore" href="http://nc.umunc.org/cheetah/"> <?php echo __( '华北分会 Cheetah', 'himalayas' ) ?></a>
+                        <a class="slider-readmore" href="http://nc.umunc.org/mpc/"> <?php echo __( '华北分会 MPC', 'himalayas' ) ?></a>
+<br /><br />
+                        <a class="slider-readmore" href="http://nw.umunc.org/cheetah/"> <?php echo __( '西北分会 Cheetah', 'himalayas' ) ?></a>
+                        <a class="slider-readmore" href="http://nw.umunc.org/mpc/"> <?php echo __( '西北分会 MPC', 'himalayas' ) ?></a>
 
                      <?php  } ?>
                   </div>

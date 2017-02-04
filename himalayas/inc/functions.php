@@ -387,7 +387,7 @@ function himalayas_footer_copyright() {
 
 	$tg_link =  '<a href="'. 'http://www.umunc.org/' .'" target="_blank" title="'.esc_attr__( 'ThemeGrill', 'himalayas' ).'" rel="designer">'.__( 'ThemeGrill', 'himalayas') .'</a>';
 
-	$default_footer_value = '<span class="copyright-text">' . sprintf( __( 'Copyright &copy; %1$s %2$s.', 'himalayas' ), date( 'Y' ), $site_link ).' '.sprintf( __( '自豪的采用 %s. <a href="http://www.miitbeian.gov.cn/">闽ICP备16003006号</a> ', 'himalayas' ), $wp_link ) . '</span>';
+	$default_footer_value = '<span class="copyright-text">' . sprintf( __( 'Copyright &copy; %1$s %2$s.', 'himalayas' ), date( 'Y' ), $site_link ).' '.sprintf( __( '自豪的采用 %s. <a href="http://www.miitbeian.gov.cn/">闽ICP备16003006号</a>. <b>Cheetah与Umoic站点的内容与现实的人物、团体及事件无关</b>. ', 'himalayas' ), $wp_link ) . '</span>';
 
 	$himalayas_footer_copyright = '<div class="copyright">'.$default_footer_value.'</div>';
 	echo $himalayas_footer_copyright;
