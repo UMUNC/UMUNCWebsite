@@ -6,5 +6,5 @@ mkdir /usr/src/wordpress/wp-content/uploads
 cp -R /cnt/uploads/. /usr/src/wordpress/wp-content/uploads/
 chown -R www-data:www-data /usr/src/wordpress/wp-content/uploads/
 
-
-apache2-foreground
+cd /usr/local/bin
+./docker-entrypoint.sh apache2-foreground
