@@ -7,4 +7,4 @@ cp -R /cnt/uploads/. /usr/src/wordpress/wp-content/uploads/
 chown -R www-data:www-data /usr/src/wordpress/wp-content/uploads/
 
 
-/entrypoint.sh apache2-foreground
+apache2-foreground
