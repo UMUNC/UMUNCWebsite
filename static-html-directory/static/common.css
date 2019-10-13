@@ -1,0 +1,101 @@
+body {
+    margin: 0 0 0 0;
+    font-family: "PingFangSC-Regular", "Source Han Sans", "Microsoft JhengHei", "SimHei", sans-serif;
+    color: #656363;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+a:link {
+    color: #656363;
+}
+a:visited {
+    color: #656363;
+}
+
+
+.full-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /*background: black;*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .notice {
+        width: 100%;
+        height: 500px;
+        /*background: black;*/
+        /*border: black solid 1px;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+    .notice {
+        width: 830px;
+        height: 500px;
+        /*background: black;*/
+        /*border: black solid 1px;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+.sub-panel {
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    /*border: black solid 1px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    width: 100%;
+    max-width: 350px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 64px;
+    text-align: center;
+
+}
+
+.btn-link {
+    margin: 10px 0 10px 0;
+    width: 250px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+
+    border: #0689fe66 solid 1px;
+    border-radius: 5px;
+
+    cursor: pointer;
+    box-shadow: 0 0 0 #0689feFF;
+    text-decoration: none;
+
+
+    transition: border 0.5s, box-shadow 0.5s, color 0.5s;
+
+}
+
+.btn-link:hover{
+    border: #0689feFF solid 1px;
+    box-shadow: 0 0 8px #0689feFF;
+    color: black;
+}
+
