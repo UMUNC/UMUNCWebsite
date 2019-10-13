@@ -1,8 +1,9 @@
-FROM wordpress:latest
+FROM nginx:latest
+COPY static-html-directory /usr/share/nginx/html
 
-RUN mkdir /cnt
-COPY . /cnt 
+# RUN mkdir /cnt
+# COPY . /cnt
 
-RUN chmod +x /cnt/loader.sh
+# RUN chmod +x /cnt/loader.sh
 
-CMD ["/cnt/loader.sh"]
+# CMD ["/cnt/loader.sh"]
